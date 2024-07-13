@@ -6,8 +6,9 @@ All notable changes to homebridge-wemo will be documented in this file.
 
 ### Changed
 
+- Fixed for `hap-nodejs` v1.0.0
 - Updated dependencies
-- Bump `node` supported versions to v18.19.1 or v20.11.1
+- Bump `node` recommended versions to v18.20.4 or v20.15.1
 
 ### Fixed
 
