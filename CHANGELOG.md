@@ -9,6 +9,7 @@ All notable changes to homebridge-wemo will be documented in this file.
 - Fixed for `hap-nodejs` v1.0.0
 - Updated dependencies
 - Bump `node` recommended versions to v18.20.4 or v20.15.1
+- Updated `eslint` and use new code style
 
 ### Fixed
 

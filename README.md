@@ -2,15 +2,17 @@
    <a href="https://github.com/bwp91/homebridge-wemo"><img alt="Homebridge Verified" src="https://user-images.githubusercontent.com/43026681/126868557-d0983348-d124-4247-bea9-7dcc62849cdf.png" width="600px"></a>
 </p>
 <span align="center">
-  
+
 # homebridge-wemo
 
 Homebridge plugin to integrate Wemo devices into HomeKit
 
 [![npm](https://img.shields.io/npm/v/homebridge-wemo/latest?label=latest)](https://www.npmjs.com/package/homebridge-wemo)
-[![npm](https://img.shields.io/npm/v/homebridge-wemo/beta?label=beta)](https://github.com/bwp91/homebridge-wemo/wiki/Beta-Version)  
+[![npm](https://img.shields.io/npm/v/homebridge-wemo/beta?label=beta)](https://github.com/bwp91/homebridge-wemo/wiki/Beta-Version)
+
 [![verified-by-homebridge](https://badgen.net/badge/homebridge/verified/purple)](https://github.com/homebridge/homebridge/wiki/Verified-Plugins)
-[![hoobs-certified](https://badgen.net/badge/HOOBS/certified/yellow?label=hoobs)](https://plugins.hoobs.org/plugin/homebridge-wemo)  
+[![hoobs-certified](https://badgen.net/badge/HOOBS/certified/yellow?label=hoobs)](https://plugins.hoobs.org/plugin/homebridge-wemo)
+
 [![npm](https://img.shields.io/npm/dt/homebridge-wemo)](https://www.npmjs.com/package/homebridge-wemo)
 [![Discord](https://img.shields.io/discord/432663330281226270?color=728ED5&logo=discord&label=hb-discord)](https://discord.com/channels/432663330281226270/742733745743855627)
 
