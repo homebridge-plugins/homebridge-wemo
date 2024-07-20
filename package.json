@@ -2,7 +2,7 @@
   "name": "homebridge-wemo",
   "alias": "Wemo",
   "type": "module",
-  "version": "7.0.0-beta.2",
+  "version": "7.0.0-beta.3",
   "description": "Homebridge plugin to integrate Wemo devices into HomeKit.",
   "author": {
     "name": "bwp91",
