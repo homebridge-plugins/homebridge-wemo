@@ -1,5 +1,5 @@
 <p align="center">
-   <a href="https://github.com/bwp91/homebridge-wemo"><img alt="Homebridge Verified" src="https://user-images.githubusercontent.com/43026681/126868557-d0983348-d124-4247-bea9-7dcc62849cdf.png" width="600px"></a>
+   <a href="https://github.com/homebridge-plugins/homebridge-wemo"><img alt="Homebridge Verified" src="https://user-images.githubusercontent.com/43026681/126868557-d0983348-d124-4247-bea9-7dcc62849cdf.png" width="600px"></a>
 </p>
 <span align="center">
 
@@ -8,7 +8,7 @@
 Homebridge plugin to integrate Wemo devices into HomeKit
 
 [![npm](https://img.shields.io/npm/v/homebridge-wemo/latest?label=latest)](https://www.npmjs.com/package/homebridge-wemo)
-[![npm](https://img.shields.io/npm/v/homebridge-wemo/beta?label=beta)](https://github.com/bwp91/homebridge-wemo/wiki/Beta-Version)
+[![npm](https://img.shields.io/npm/v/homebridge-wemo/beta?label=beta)](https://github.com/homebridge-plugins/homebridge-wemo/wiki/Beta-Version)
 
 [![verified-by-homebridge](https://badgen.net/badge/homebridge/verified/purple)](https://github.com/homebridge/homebridge/wiki/Verified-Plugins)
 [![hoobs-certified](https://badgen.net/badge/HOOBS/certified/yellow?label=hoobs)](https://plugins.hoobs.org/plugin/homebridge-wemo)
@@ -34,20 +34,20 @@ Homebridge plugin to integrate Wemo devices into HomeKit
 
 ### Setup
 
-- [Installation](https://github.com/bwp91/homebridge-wemo/wiki/Installation)
-- [Configuration](https://github.com/bwp91/homebridge-wemo/wiki/Configuration)
+- [Installation](https://github.com/homebridge-plugins/homebridge-wemo/wiki/Installation)
+- [Configuration](https://github.com/homebridge-plugins/homebridge-wemo/wiki/Configuration)
 - [Beta Version](https://github.com/homebridge/homebridge/wiki/How-to-Install-Alternate-Plugin-Versions)
-- [Node Version](https://github.com/bwp91/homebridge-wemo/wiki/Node-Version)
+- [Node Version](https://github.com/homebridge-plugins/homebridge-wemo/wiki/Node-Version)
 
 ### Features
 
-- [Supported Devices](https://github.com/bwp91/homebridge-wemo/wiki/Supported-Devices)
+- [Supported Devices](https://github.com/homebridge-plugins/homebridge-wemo/wiki/Supported-Devices)
 
 ### Help/About
 
-- [Common Errors](https://github.com/bwp91/homebridge-wemo/wiki/Common-Errors)
-- [Support Request](https://github.com/bwp91/homebridge-wemo/issues/new/choose)
-- [Changelog](https://github.com/bwp91/homebridge-wemo/blob/latest/CHANGELOG.md)
+- [Common Errors](https://github.com/homebridge-plugins/homebridge-wemo/wiki/Common-Errors)
+- [Support Request](https://github.com/homebridge-plugins/homebridge-wemo/issues/new/choose)
+- [Changelog](https://github.com/homebridge-plugins/homebridge-wemo/blob/latest/CHANGELOG.md)
 - [About Me](https://github.com/sponsors/bwp91)
 
 ### Credits

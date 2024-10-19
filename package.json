@@ -27,12 +27,13 @@
       "url": "https://www.paypal.me/BenPotter"
     }
   ],
+  "homepage": "https://github.com/homebridge-plugins/homebridge-wemo",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bwp91/homebridge-wemo.git"
+    "url": "https://github.com/homebridge-plugins/homebridge-wemo.git"
   },
   "bugs": {
-    "url": "https://github.com/bwp91/homebridge-wemo/issues"
+    "url": "https://github.com/homebridge-plugins/homebridge-wemo/issues"
   },
   "keywords": [
     "homebridge",
@@ -47,7 +48,7 @@
   "main": "lib/index.js",
   "engines": {
     "homebridge": "^1.6.0 || ^2.0.0-beta.0",
-    "node": "^18.20.4 || ^20.16.0 || ^22.5.1"
+    "node": "^18.20.4 || ^20.18.0 || ^22.10.0"
   },
   "scripts": {
     "lint": "eslint . --fix",
@@ -55,7 +56,7 @@
   },
   "dependencies": {
     "@homebridge/plugin-ui-utils": "^1.0.3",
-    "axios": "^1.7.3",
+    "axios": "^1.7.7",
     "ip": "^2.0.1",
     "node-ssdp": "^4.0.1",
     "p-queue": "^8.0.1",
@@ -63,7 +64,7 @@
     "xmlbuilder": "^15.1.1"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.24.1",
-    "eslint": "^9.8.0"
+    "@antfu/eslint-config": "^3.8.0",
+    "eslint": "^9.13.0"
   }
 }
