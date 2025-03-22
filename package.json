@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-wemo",
+  "name": "@homebridge-plugins/homebridge-wemo",
   "alias": "Wemo",
   "type": "module",
   "version": "7.0.0",
@@ -30,7 +30,7 @@
   "homepage": "https://github.com/homebridge-plugins/homebridge-wemo",
   "repository": {
     "type": "git",
-    "url": "https://github.com/homebridge-plugins/homebridge-wemo.git"
+    "url": "git+https://github.com/homebridge-plugins/homebridge-wemo.git"
   },
   "bugs": {
     "url": "https://github.com/homebridge-plugins/homebridge-wemo/issues"
