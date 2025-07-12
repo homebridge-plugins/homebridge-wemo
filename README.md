@@ -7,13 +7,13 @@
 
 Homebridge plugin to integrate Wemo devices into HomeKit
 
-[![npm](https://img.shields.io/npm/v/homebridge-wemo/latest?label=latest)](https://www.npmjs.com/package/homebridge-wemo)
-[![npm](https://img.shields.io/npm/v/homebridge-wemo/beta?label=beta)](https://github.com/homebridge-plugins/homebridge-wemo/wiki/Beta-Version)
+[![npm](https://img.shields.io/npm/v/@homebridge-plugins/homebridge-wemo/latest?label=latest)](https://www.npmjs.com/package/@homebridge-plugins/homebridge-wemo)
+[![npm](https://img.shields.io/npm/v/@homebridge-plugins/homebridge-wemo/beta?label=beta)](https://github.com/homebridge-plugins/homebridge-wemo/wiki/Beta-Version)
 
 [![verified-by-homebridge](https://badgen.net/badge/homebridge/verified/purple)](https://github.com/homebridge/homebridge/wiki/Verified-Plugins)
 [![hoobs-certified](https://badgen.net/badge/HOOBS/certified/yellow?label=hoobs)](https://plugins.hoobs.org/plugin/homebridge-wemo)
 
-[![npm](https://img.shields.io/npm/dt/homebridge-wemo)](https://www.npmjs.com/package/homebridge-wemo)
+[![npm](https://img.shields.io/npm/dt/@homebridge-plugins/homebridge-wemo)](https://www.npmjs.com/package/@homebridge-plugins/homebridge-wemo)
 [![Discord](https://img.shields.io/discord/432663330281226270?color=728ED5&logo=discord&label=hb-discord)](https://discord.com/channels/432663330281226270/742733745743855627)
 
 </span>
@@ -25,10 +25,15 @@ Homebridge plugin to integrate Wemo devices into HomeKit
   - will attempt to control your devices via a local HTTP request
   - will attempt to establish a UPnP connection to your devices to listen for external changes (if disabled, HTTP polling is used)
 
+> [!NOTE]
+> This plugin does not use the Wemo cloud service - it is designed to work entirely on your local network.
+> This means that the plugin should continue to work after the Wemo cloud service is discontinued.
+> See [https://github.com/homebridge-plugins/homebridge-wemo/issues/203](issue #203) for more information.
+
 ### Prerequisites
 
 - To use this plugin, you will need to already have:
-  - [Node](https://nodejs.org): latest version of `v18`, `v20` or `v22` - any other major version is not supported.
+  - [Node](https://nodejs.org): latest version of `v20`, `v22` or `v24` - any other major version is not supported.
   - [Homebridge](https://homebridge.io): `v1.6` - refer to link for more information and installation instructions.
   - For the UPnP connection, make sure your Homebridge instance has an allocated IP from the same IP network or VLAN as your Wemo devices. Otherwise, you should disable the UPnP connection to avoid connection errors.
 

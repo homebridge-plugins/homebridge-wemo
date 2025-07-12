@@ -51,8 +51,8 @@
     "node": "^18.20.8 || ^20.19.0 || ^22.14.0"
   },
   "scripts": {
-    "lint": "eslint . --fix",
-    "rebuild": "rm -rf package-lock.json && rm -rf node_modules && npm install"
+    "lint": "eslint . --max-warnings=0",
+    "lint:fix": "npm run lint -- --fix"
   },
   "dependencies": {
     "@homebridge/plugin-ui-utils": "^2.0.2",

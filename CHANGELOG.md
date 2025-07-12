@@ -2,7 +2,13 @@
 
 All notable changes to homebridge-wemo will be documented in this file.
 
-## 7.0.0 (2025-03-22)
+## v7.0.1 (2025-07-12)
+
+### Other Changes
+
+- github repo maintenance
+
+## v7.0.0 (2025-03-22)
 
 ### Changed
 
@@ -19,7 +25,7 @@ All notable changes to homebridge-wemo will be documented in this file.
 
 - Support for node 16
 
-## 6.1.2 (2023-09-18)
+## v6.1.2 (2023-09-18)
 
 ⚠️ Note this will be the last version of the plugin to support Node 16.
 - Node 16 moves to 'end of life' on 2023-09-11 ([more info](https://nodejs.org/en/blog/announcements/nodejs16-eol))
@@ -34,7 +40,7 @@ All notable changes to homebridge-wemo will be documented in this file.
 
 - Properly ignore serial numbers if they aren't already in upper case
 
-## 6.1.1 (2023-08-28)
+## v6.1.1 (2023-08-28)
 
 ### Changed
 
@@ -44,7 +50,7 @@ All notable changes to homebridge-wemo will be documented in this file.
 
 - Show config option `outletInUseTrue` even when `showAs` is not selected
 
-## 6.1.0 (2023-06-17)
+## v6.1.0 (2023-06-17)
 
 ### Added
 
@@ -55,27 +61,27 @@ All notable changes to homebridge-wemo will be documented in this file.
 - Bump `node` supported versions to v16.20.0 or v18.16.0 or v20.1.0
 - Updated dependencies
 
-## 6.0.4 (2023-05-01)
+## v6.0.4 (2023-05-01)
 
 ### Changed
 
 - README changes
 - Dependency updates
 
-## 6.0.3 (2023-04-22)
+## v6.0.3 (2023-04-22)
 
 ### Changed
 
 - Update dependencies
 - Bump `node` supported versions to v16.20.0 or v18.16.0 or v20.0.0
 
-## 6.0.2 (2023-04-10)
+## v6.0.2 (2023-04-10)
 
 ### Changed
 
 - Bump `xml2js` dependency
 
-## 6.0.1 (2023-04-05)
+## v6.0.1 (2023-04-05)
 
 ### Changed
 
@@ -86,7 +92,7 @@ All notable changes to homebridge-wemo will be documented in this file.
 
 - Eve switch values for light switches
 
-## 6.0.0 (2023-03-11)
+## v6.0.0 (2023-03-11)
 
 ### Breaking
 
@@ -100,14 +106,14 @@ All notable changes to homebridge-wemo will be documented in this file.
 - Bump `homebridge` recommended version to v1.6.0 or v2.0.0-beta
 - Bump `node` recommended versions to v16.19.1 or v18.15.0
 
-## 5.0.5 (2022-10-16)
+## v5.0.5 (2022-10-16)
 
 ### Changed
 
 - Bump `node` recommended versions to v14.20.1 or v16.18.0 or v18.11.0
 - Bump `axios` to v1.1.3
 
-## 5.0.4 (2022-09-25)
+## v5.0.4 (2022-09-25)
 
 ### Changed
 
@@ -116,7 +122,7 @@ All notable changes to homebridge-wemo will be documented in this file.
 - Bump `node` recommended versions to v14.20.1 or v16.17.1
 - Updated dev dependencies
 
-## 5.0.3 (2022-06-08)
+## v5.0.3 (2022-06-08)
 
 ### Changed
 
@@ -127,19 +133,19 @@ All notable changes to homebridge-wemo will be documented in this file.
 - Fix a Crockpot issue when plugin receives off value
 - A potential issue showing errors in the logs
 
-## 5.0.2 (2022-05-28)
+## v5.0.2 (2022-05-28)
 
 ### Changed
 
 - More fixes and refactoring
 
-## 5.0.1 (2022-05-28)
+## v5.0.1 (2022-05-28)
 
 ### Fixed
 
 - An error message when initialising Wemo motion devices
 
-## 5.0.0 (2022-05-28)
+## v5.0.0 (2022-05-28)
 
 ### Potentially Breaking Changes
 
@@ -152,7 +158,7 @@ All notable changes to homebridge-wemo will be documented in this file.
 - Bump `ip` to v2.0.0
 - Bump `node` recommended versions to v14.19.3 or v16.15.0
 
-## 4.7.3 (2022-04-29)
+## v4.7.3 (2022-04-29)
 
 ### Changed
 
@@ -164,7 +170,7 @@ All notable changes to homebridge-wemo will be documented in this file.
 - Node 18 `networkInterfaces` fix
   - Note that Homebridge nor this plugin do not _officially_ support Node 18 until October 2022
 
-## 4.7.2 (2022-03-20)
+## v4.7.2 (2022-03-20)
 
 ### Changed
 
@@ -176,14 +182,14 @@ All notable changes to homebridge-wemo will be documented in this file.
 - Some fixes for Wemo Crockpot
 - Accessory name logging on http receive device update failures
 
-## 4.7.1 (2022-02-27)
+## v4.7.1 (2022-02-27)
 
 ### Changed
 
 - Bump `axios` to v0.26.0
 - Bump `node` recommended versions to v14.19.0 or v16.14.0
 
-## 4.7.0 (2022-02-08)
+## v4.7.0 (2022-02-08)
 
 ### Added
 
@@ -193,7 +199,7 @@ All notable changes to homebridge-wemo will be documented in this file.
 
 - Characteristic warning for Wemo Humidifier
 
-## 4.6.0 (2022-01-28)
+## v4.6.0 (2022-01-28)
 
 See ⚠️ for potentially breaking changes
 
@@ -214,7 +220,7 @@ See ⚠️ for potentially breaking changes
 - HomeKit 'No Response' issue with Wemo Maker
 - Unsupported devices will now only show once in the log when first discovered
 
-## 4.5.4 (2022-01-13)
+## v4.5.4 (2022-01-13)
 
 ### Changed
 
@@ -224,26 +230,26 @@ See ⚠️ for potentially breaking changes
 
 - Plugin crash for older versions of Homebridge
 
-## 4.5.3 (2022-01-05)
+## v4.5.3 (2022-01-05)
 
 ### Changed
 
 - Bump `homebridge` recommended version to v1.3.9
 
-## 4.5.2 (2021-12-30)
+## v4.5.2 (2021-12-30)
 
 ### Changed
 
 - Plugin will log HAPNodeJS version on startup
 - Default UPnP interval increased to `300` (5 minute interval)
 
-## 4.5.1 (2021-12-22)
+## v4.5.1 (2021-12-22)
 
 ### Fixed
 
 - Option to specify the subscription time for UPnP subscriptions, eero users _may_ benefit from increasing this value
 
-## 4.5.0 (2021-12-21)
+## v4.5.0 (2021-12-21)
 
 ### Added
 
@@ -253,7 +259,7 @@ See ⚠️ for potentially breaking changes
 
 - Moved commonly used configuration options out of the 'Optional Settings' section for easier access
 
-## 4.4.0 (2021-12-08)
+## v4.4.0 (2021-12-08)
 
 See ⚠️ for breaking changes
 
@@ -271,7 +277,7 @@ See ⚠️ for breaking changes
 
 - ⚠️ Removed the `manualDevices[]` config entry, the same functionality is available in the device-type specific sections
 
-## 4.3.0 (2021-11-18)
+## v4.3.0 (2021-11-18)
 
 ### Added
 
@@ -282,7 +288,7 @@ See ⚠️ for breaking changes
 
 - An `undefined` logging entry for the Wemo Insight
 
-## 4.2.6 (2021-10-31)
+## v4.2.6 (2021-10-31)
 
 ### Changed
 
@@ -290,7 +296,7 @@ See ⚠️ for breaking changes
 - Bump `node` recommended versions to v14.18.1 or v16.13.0
 - Bump `axios` to v0.24.0
 
-## 4.2.5 (2021-10-20)
+## v4.2.5 (2021-10-20)
 
 ### Changed
 
@@ -300,7 +306,7 @@ See ⚠️ for breaking changes
 
 - An Eve app 'no data' gap for garage devices when restarting the plugin
 
-## 4.2.4 (2021-10-16)
+## v4.2.4 (2021-10-16)
 
 ### Changed
 
@@ -312,25 +318,25 @@ See ⚠️ for breaking changes
 
 - An error when trying to unregister a hidden accessory from Homebridge
 
-## 4.2.3 (2021-10-03)
+## v4.2.3 (2021-10-03)
 
 ### Changed
 
 - Bump `axios` to v0.22.0
 
-## 4.2.2 (2021-09-30)
+## v4.2.2 (2021-09-30)
 
 ### Fixed
 
 - Increase UPnP subscription time to 130 seconds to fix instances of `412` error
 
-## 4.2.1 (2021-09-30)
+## v4.2.1 (2021-09-30)
 
 ### Changed
 
 - Recommended node versions bumped to v14.18.0 or v16.10.0
 
-## 4.2.0 (2021-09-28)
+## v4.2.0 (2021-09-28)
 
 ### Added
 
@@ -340,14 +346,14 @@ See ⚠️ for breaking changes
 
 - UPnP callback url now uses the accessory UUID (not the UDN) so the plugin immediately knows which accessory a notification relates to
 
-## 4.1.6 (2021-09-09)
+## v4.1.6 (2021-09-09)
 
 ### Changed
 
 - `configureAccessory` function simplified to reduce chance of accessory cache retrieval failing
 - Bump `axios` to v0.21.4
 
-## 4.1.5 (2021-09-05)
+## v4.1.5 (2021-09-05)
 
 ### Changed
 
@@ -355,25 +361,25 @@ See ⚠️ for breaking changes
 - Recommended node version bumped to v14.17.6
 - Bump `axios` to v0.21.3
 
-## 4.1.4 (2021-08-22)
+## v4.1.4 (2021-08-22)
 
 ### Changed
 
 - Ignore `pywemo` virtual device type `urn:Belkin:device:switch:1`
 
-## 4.1.3 (2021-08-18)
+## v4.1.3 (2021-08-18)
 
 ### Fixed
 
 - Better handling of NodeSSDP `No sockets available, cannot start.` error
 
-## 4.1.2 (2021-08-17)
+## v4.1.2 (2021-08-17)
 
 ### Fixed
 
 - An unhandled rejection error when initialising Wemo Link
 
-## 4.1.1 (2021-08-12)
+## v4.1.1 (2021-08-12)
 
 ### Changed
 
@@ -384,7 +390,7 @@ See ⚠️ for breaking changes
 
 - Fixed title of `debugNodeSSDP` setting (only visible in HOOBS)
 
-## 4.1.0 (2021-08-10)
+## v4.1.0 (2021-08-10)
 
 ### Added
 
@@ -437,7 +443,7 @@ See ⚠️ for breaking changes
   - Please start to move any entries you have from the manual devices section to the appropriate device section
   - Any entries in the manual devices section will continue to work (ie this is not a breaking change)
 
-## 4.0.0 (2021-07-29)
+## v4.0.0 (2021-07-29)
 
 ### Added
 
@@ -456,26 +462,26 @@ See ⚠️ for breaking changes
   - Devices can be ignored by entering a serial number in the relevant device section and ticking 'Hide From HomeKit'
   - It is recommended to set up your ignored devices **before** updating to avoid losing your list of serial numbers
 
-## 3.4.2 (2021-07-27)
+## v3.4.2 (2021-07-27)
 
 ### Fixed
 
 - An issue preventing Wemo Outlets being exposed as `Switch` or `AirPurifier` types
 
-## 3.4.1 (2021-07-24)
+## v3.4.1 (2021-07-24)
 
 ### Fixed
 
 - Use new plugin alias in config schema file
 
-## 3.4.0 (2021-07-24)
+## v3.4.0 (2021-07-24)
 
 ### Changed
 
 - Plugin name from `homebridge-platform-wemo` to `homebridge-wemo`
 - Plugin alias from `BelkinWeMo` to `Wemo`
 
-## 3.3.0 (2021-07-22)
+## v3.3.0 (2021-07-22)
 
 ### Added
 
@@ -495,19 +501,19 @@ See ⚠️ for breaking changes
 
 - Logging status for the Wemo Maker sensor (when exposed as a Switch) was incorrectly reversed
 
-## 3.2.2 (2021-07-08)
+## v3.2.2 (2021-07-08)
 
 ### Changes
 
 - Revert node version bump to v14.17.3 (back to v14.17.2)
 
-## 3.2.1 (2021-07-07)
+## v3.2.1 (2021-07-07)
 
 ### Fixed
 
 - An issue initialising Wemo light switch devices ([#262](https://github.com/homebridge-plugins/homebridge-wemo/issues/262))
 
-## 3.2.0 (2021-07-07)
+## v3.2.0 (2021-07-07)
 
 ### Added
 
@@ -546,7 +552,7 @@ See ⚠️ for breaking changes
 - `overrideDisabledLogging` setting for each accessory type (replaced with `overrideLogging` setting)
 - `showAsSwitch` setting for Wemo Outlets (replaced with `showAs` setting)
 
-## 3.1.0 (2021-05-26)
+## v3.1.0 (2021-05-26)
 
 ### Added
 
@@ -557,7 +563,7 @@ See ⚠️ for breaking changes
 - Use `standard-prettier` code formatting
 - Recommended node version bump to v14.17.0
 
-## 3.0.9 (2021-05-10)
+## v3.0.9 (2021-05-10)
 
 ### Changed
 
@@ -565,7 +571,7 @@ See ⚠️ for breaking changes
 - Update the correct corresponding characteristic after the 'No Response' timeout
 - Ensure user is using at least Homebridge v1.3.0
 
-## 3.0.8 (2021-05-04)
+## v3.0.8 (2021-05-04)
 
 ### Changed
 
@@ -573,20 +579,20 @@ See ⚠️ for breaking changes
 - Accessory 'identify' function will now add an entry to the log
 - Backend refactoring, function and variable name changes
 
-## 3.0.7 (2021-04-27)
+## v3.0.7 (2021-04-27)
 
 ### Changed
 
 - Display Wemo Insight 'on time' as HH:MM:SS in logs
 - More consistent logging on device errors, and helpful info for common errors
 
-## 3.0.6 (2021-04-24)
+## v3.0.6 (2021-04-24)
 
 ### Fixed
 
 - Fix 'time on' and 'total consumption' calculations for Wemo Insights
 
-## 3.0.5 (2021-04-16)
+## v3.0.5 (2021-04-16)
 
 ### Changed
 
@@ -596,25 +602,25 @@ See ⚠️ for breaking changes
 
 - Fix characteristic NaN warning for `LastActivation`
 
-## 3.0.4 (2021-04-14)
+## v3.0.4 (2021-04-14)
 
 ### Fixed
 
 - Ensure 'No Response' is removed from Wemo Makers when discovered
 
-## 3.0.3 (2021-04-14)
+## v3.0.3 (2021-04-14)
 
 ### Fixed
 
 - Fixes a characteristic issue with Wemo Maker devices
 
-## 3.0.2 (2021-04-13)
+## v3.0.2 (2021-04-13)
 
 ### Fixed
 
 - Fix for `Cannot read property 'updateCharacteristic' of undefined` on plugin startup
 
-## 3.0.1 (2021-04-13)
+## v3.0.1 (2021-04-13)
 
 ### Requirements
 
@@ -638,7 +644,7 @@ See ⚠️ for breaking changes
 - Updated README to reflect minimum supported Homebridge/HOOBS and Node versions
 - Updated recommended Node to v14.16.1
 
-## 2.15.2 (2021-03-21)
+## v2.15.2 (2021-03-21)
 
 ### Changed
 
@@ -649,13 +655,13 @@ See ⚠️ for breaking changes
 
 - Correct `debugFakegato` setting to type boolean
 
-## 2.15.1 (2021-03-17)
+## v2.15.1 (2021-03-17)
 
 ### Changed
 
 - Modified config schema to show titles/descriptions for non Homebridge UI users
 
-## 2.15.0 (2021-03-14)
+## v2.15.0 (2021-03-14)
 
 ### Added
 
@@ -671,7 +677,7 @@ See ⚠️ for breaking changes
 - Adaptive Lighting now requires Homebridge 1.3 release
 - **Wemo Crockpot** polling interval will be stopped if Homebridge shuts down
 
-## 2.14.0 (2021-03-02)
+## v2.14.0 (2021-03-02)
 
 ### Added
 
@@ -686,7 +692,7 @@ See ⚠️ for breaking changes
 - Plugin will now check if a device is ignored by the device USN at an earlier stage of being discovered
 - Updated minimum Node to v14.16.0
 
-## 2.13.0 (2021-02-17)
+## v2.13.0 (2021-02-17)
 
 ### Added
 
@@ -706,7 +712,7 @@ See ⚠️ for breaking changes
 
 - Fixes a uuid error when adding Insights to Homebridge
 
-## 2.12.0 (2021-02-13)
+## v2.12.0 (2021-02-13)
 
 ### Added
 
@@ -726,7 +732,7 @@ See ⚠️ for breaking changes
 - Fakegato library formatting and simplification
 - [Backend] Code refactoring
 
-## 2.11.0 (2021-02-01)
+## v2.11.0 (2021-02-01)
 
 ### Changed
 
@@ -747,7 +753,7 @@ See ⚠️ for breaking changes
 - Properly catch exceptions on SSDP search errors
 - Fixes a bug when initialising Garage Doors
 
-## 2.10.0 (2021-01-30)
+## v2.10.0 (2021-01-30)
 
 ### Added
 
@@ -779,7 +785,7 @@ See ⚠️ for breaking changes
 
 - Fixes an issue where the Insight would consistently log outlet-in-use between true and false
 
-## 2.9.1 (2021-01-21)
+## v2.9.1 (2021-01-21)
 
 ### Changed
 
@@ -791,7 +797,7 @@ See ⚠️ for breaking changes
 
 - Fixes a 'multiple callback' issue with Fakegato history service
 
-## 2.9.0 (2021-01-14)
+## v2.9.0 (2021-01-14)
 
 ### Added
 
