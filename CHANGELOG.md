@@ -4,6 +4,12 @@ All notable changes to homebridge-wemo will be documented in this file.
 
 ## v7.0.1 (2025-07-12)
 
+⚠️ This plugin no longer officially supports Node `v16` and `v18`, however there is no reason why it shouldn't work on these versions.
+
+### Notable Changes
+
+- set supported node versions to `v20`, `v22` and `v24`
+
 ### Other Changes
 
 - github repo maintenance
