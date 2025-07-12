@@ -24,3 +24,6 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+
+  eslint:
+    uses: homebridge/.github/.github/workflows/eslint.yml@latest
