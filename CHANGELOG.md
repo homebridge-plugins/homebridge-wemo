@@ -7,6 +7,7 @@ All notable changes to homebridge-wemo will be documented in this file.
 ### Other Changes
 
 - github repo maintenance
+- add permissions to workflows
 
 ## v7.1.0 (2025-07-12)
 
