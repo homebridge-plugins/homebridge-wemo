@@ -4,6 +4,10 @@ All notable changes to homebridge-wemo will be documented in this file.
 
 ## v7.1.1 (Unreleased)
 
+### Notable Changes
+
+- fix custom plugin config modal styles in ui 5
+
 ### Other Changes
 
 - github repo maintenance
