@@ -9,6 +9,7 @@ All notable changes to homebridge-wemo will be documented in this file.
 ### Notable Changes
 
 - set supported node versions to `v20`, `v22` and `v24`
+- set `strictValidation` to `true` in the config schema file
 
 ### Other Changes
 
