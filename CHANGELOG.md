@@ -13,6 +13,7 @@ All notable changes to homebridge-wemo will be documented in this file.
 ### Other Changes
 
 - github repo maintenance
+- updated dependencies
 
 ## v7.0.0 (2025-03-22)
 
