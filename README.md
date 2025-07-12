@@ -28,7 +28,7 @@ Homebridge plugin to integrate Wemo devices into HomeKit
 > [!NOTE]
 > This plugin does not use the Wemo cloud service - it is designed to work entirely on your local network.
 > This means that the plugin should continue to work after the Wemo cloud service is discontinued.
-> See [https://github.com/homebridge-plugins/homebridge-wemo/issues/203](issue #203) for more information.
+> See [issue #203](https://github.com/homebridge-plugins/homebridge-wemo/issues/203) for more information.
 
 ### Prerequisites
 
