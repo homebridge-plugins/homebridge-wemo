@@ -2,7 +2,7 @@
 
 All notable changes to homebridge-wemo will be documented in this file.
 
-## v7.2.2 (Unreleased)
+## v7.2.2 (2025-07-24)
 
 ### Other Changes
 
