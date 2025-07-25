@@ -64,6 +64,6 @@
     "xmlbuilder": "^15.1.1"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.19.0"
+    "@antfu/eslint-config": "^5.0.0"
   }
 }
