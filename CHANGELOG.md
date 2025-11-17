@@ -1,6 +1,12 @@
 # Change Log
 
-All notable changes to homebridge-wemo will be documented in this file.
+All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented in this file.
+
+## v7.2.3 (Unreleased)
+
+### Changes
+
+- update readme badges (use `shields.io`)
 
 ## v7.2.2 (2025-07-24)
 
