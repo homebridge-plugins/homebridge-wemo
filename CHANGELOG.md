@@ -7,6 +7,7 @@ All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented 
 ### Changes
 
 - update readme badges (use `shields.io`)
+- update workflows and npm publish via oidc
 
 ## v7.2.2 (2025-07-24)
 
