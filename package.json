@@ -55,15 +55,15 @@
     "lint:fix": "npm run lint -- --fix"
   },
   "dependencies": {
-    "@homebridge/plugin-ui-utils": "^2.1.0",
-    "axios": "^1.11.0",
+    "@homebridge/plugin-ui-utils": "^2.1.2",
+    "axios": "^1.13.2",
     "ip": "^2.0.1",
     "node-ssdp": "^4.0.1",
-    "p-queue": "^8.1.0",
+    "p-queue": "^9.0.1",
     "xml2js": "^0.6.2",
     "xmlbuilder": "^15.1.1"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.19.0"
+    "@antfu/eslint-config": "^6.4.2"
   }
 }
