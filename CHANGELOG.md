@@ -2,7 +2,7 @@
 
 All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented in this file.
 
-## v7.2.3 (Unreleased)
+## v7.2.3 (2025-12-05)
 
 ### Changes
 
