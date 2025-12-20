@@ -2,6 +2,12 @@
 
 All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented in this file.
 
+## v7.2.4 (Unreleased)
+
+### Changes
+
+- determine debug mode from `-D` flag
+
 ## v7.2.3 (2025-12-05)
 
 ### Changes
