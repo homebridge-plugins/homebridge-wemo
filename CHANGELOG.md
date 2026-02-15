@@ -8,6 +8,7 @@ All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented 
 
 - determine debug mode from `-D` flag
 - updated dependencies
+- updated dependencies + lint rules
 
 ## v7.2.3 (2025-12-05)
 
