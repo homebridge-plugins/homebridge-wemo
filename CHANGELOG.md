@@ -7,6 +7,7 @@ All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented 
 ### Changed
 
 - fix: empty push in cached accessory tracking
+- fix: wrong code in link bulb reverse lookup map
 
 ## v7.3.0 (2026-02-15)
 
