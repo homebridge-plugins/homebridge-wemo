@@ -13,6 +13,7 @@ All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented 
 - fix: serial number normalization mismatch in config
 - fix: XML entity decode ordering for ampersands
 - fix: incorrect unit casing in eve characteristic
+- fix: fakegato unsubscribe removing wrong service
 
 ## v7.3.0 (2026-02-15)
 
