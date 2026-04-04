@@ -3,7 +3,7 @@
 </p>
 <span align="center">
 
-# homebridge-wemo
+## homebridge-wemo
 
 Homebridge plugin to integrate Wemo devices into HomeKit
 
