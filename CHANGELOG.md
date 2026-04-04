@@ -2,6 +2,12 @@
 
 All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented in this file.
 
+## v7.3.1 (Pending Release)
+
+### Changed
+
+- fix: empty push in cached accessory tracking
+
 ## v7.3.0 (2026-02-15)
 
 ### Changes
