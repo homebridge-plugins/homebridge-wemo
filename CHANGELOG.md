@@ -11,6 +11,7 @@ All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented 
 - fix: power diff always zero in insight devices
 - fix: extra brace in purifier ionizer log output
 - fix: serial number normalization mismatch in config
+- fix: XML entity decode ordering for ampersands
 
 ## v7.3.0 (2026-02-15)
 
