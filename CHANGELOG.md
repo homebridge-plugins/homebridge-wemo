@@ -15,6 +15,7 @@ All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented 
 - fix: incorrect unit casing in eve characteristic
 - fix: fakegato unsubscribe removing wrong service
 - fix: fakegato immediate callback missing averaging
+- fix: string radix in fakegato toString call
 
 ## v7.3.0 (2026-02-15)
 
