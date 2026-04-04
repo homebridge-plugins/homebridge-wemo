@@ -9,6 +9,7 @@ All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented 
 - fix: empty push in cached accessory tracking
 - fix: wrong code in link bulb reverse lookup map
 - fix: power diff always zero in insight devices
+- fix: extra brace in purifier ionizer log output
 
 ## v7.3.0 (2026-02-15)
 
