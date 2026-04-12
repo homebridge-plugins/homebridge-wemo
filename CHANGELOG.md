@@ -7,6 +7,7 @@ All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented 
 ### Changed
 
 - dependency updates
+- remove support for node `v20`
 
 ## v7.3.1 (2026-04-05)
 
