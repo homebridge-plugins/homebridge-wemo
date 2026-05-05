@@ -47,8 +47,8 @@
   ],
   "main": "lib/index.js",
   "engines": {
-    "homebridge": "^1.6.0 || ^2.0.0-beta.0",
-    "node": "^22 || ^24"
+    "homebridge": "^1.6.0 || ^2.0.0",
+    "node": "^22.12.0 || ^24.0.0"
   },
   "scripts": {
     "lint": "eslint . --max-warnings=0",
@@ -56,14 +56,14 @@
   },
   "dependencies": {
     "@homebridge/plugin-ui-utils": "^2.2.3",
-    "axios": "^1.15.0",
+    "axios": "^1.16.0",
     "ip": "^2.0.1",
     "node-ssdp": "^4.0.1",
-    "p-queue": "^9.1.2",
+    "p-queue": "^9.2.0",
     "xml2js": "^0.6.2",
     "xmlbuilder": "^15.1.1"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^8.1.1"
+    "@antfu/eslint-config": "^8.2.0"
   }
 }

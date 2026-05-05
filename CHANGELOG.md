@@ -2,6 +2,12 @@
 
 All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented in this file.
 
+## v7.4.1 (Pending Release)
+
+### Changed
+
+- chore: dependency updates
+
 ## v7.4.0 (2026-04-12)
 
 ### Changed
