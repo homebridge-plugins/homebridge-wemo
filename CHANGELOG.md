@@ -2,6 +2,12 @@
 
 All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented in this file.
 
+## v7.5.1 (Pending Release)
+
+### Changed
+
+- fix: clear wemo link subdevices from the pending list (#263)
+
 ## v7.5.0 (2026-05-05)
 
 ### Changed
