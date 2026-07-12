@@ -10,6 +10,7 @@ All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented 
 - fix: show target temperature slider for heater and crockpot (#110)
 - chore: update actions/checkout to v7
 - chore: remove stray exit 1 from deprecation workflow
+- chore: dependency updates
 
 ## v7.5.0 (2026-05-05)
 
