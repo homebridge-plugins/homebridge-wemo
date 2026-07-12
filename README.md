@@ -34,7 +34,7 @@ Homebridge plugin to integrate Wemo devices into HomeKit
 
 - To use this plugin, you will need to already have:
   - [Node](https://nodejs.org): latest version of `v22` or `v24` - any other major version is not supported.
-  - [Homebridge](https://homebridge.io): `v1.6` - refer to link for more information and installation instructions.
+  - [Homebridge](https://homebridge.io): `v1.6` or above - refer to link for more information and installation instructions.
   - For the UPnP connection, make sure your Homebridge instance has an allocated IP from the same IP network or VLAN as your Wemo devices. Otherwise, you should disable the UPnP connection to avoid connection errors.
 
 ### Setup
