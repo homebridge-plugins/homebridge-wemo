@@ -2,6 +2,12 @@
 
 All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented in this file.
 
+## v7.5.2 (Pending Release)
+
+### Changed
+
+- fix: never pass the hidden wemo link accessory to the homebridge cache so saving no longer fails
+
 ## v7.5.1 (2026-07-12)
 
 ### Changed
