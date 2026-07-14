@@ -28,8 +28,6 @@ Homebridge plugin to integrate Wemo devices into HomeKit
 > This means that the plugin should continue to work after the Wemo cloud service is discontinued.
 > See [issue #203](https://github.com/homebridge-plugins/homebridge-wemo/issues/203) for more information.
 
-> I'm looking for some lovely people to help maintain this plugin, please get in touch on GitHub or Discord if you'd like to help out 😄
-
 ### Prerequisites
 
 - To use this plugin, you will need to already have:
