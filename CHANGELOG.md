@@ -8,6 +8,7 @@ All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented 
 
 - chore: remove the looking-for-maintainers message
 - chore(github): update the setup-node action to v7
+- chore(deps): dependency updates
 
 ## v7.5.2 (2026-07-14)
 
