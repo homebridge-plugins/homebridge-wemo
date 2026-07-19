@@ -1,5 +1,5 @@
 <p align="center">
-   <a href="https://github.com/homebridge-plugins/homebridge-wemo"><img alt="Homebridge Verified" src="https://user-images.githubusercontent.com/43026681/126868557-d0983348-d124-4247-bea9-7dcc62849cdf.png" width="600px"></a>
+   <a href="https://github.com/homebridge-plugins/homebridge-wemo"><img alt="Homebridge Verified" src="https://raw.githubusercontent.com/homebridge-plugins/homebridge-wemo/latest/branding/Homebridge_x_Wemo.png" width="600px"></a>
 </p>
 <span align="center">
 
