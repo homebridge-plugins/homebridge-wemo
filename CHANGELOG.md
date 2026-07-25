@@ -2,6 +2,12 @@
 
 All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented in this file.
 
+## v7.6.0 (Pending Release)
+
+### Changed
+
+- feat(ui): add, remove and hide devices from the config via the my devices tab
+
 ## v7.5.3 (2026-07-18)
 
 ### Changed
