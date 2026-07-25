@@ -8,6 +8,7 @@ All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented 
 
 - feat(ui): add, remove and hide devices from the config via the my devices tab
 - style(ui): standardise the custom ui layout and sync the support tab with the readme
+- feat(ui): add a remove all devices action to the my devices tab
 
 ## v7.5.3 (2026-07-18)
 
