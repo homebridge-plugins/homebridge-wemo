@@ -38,6 +38,7 @@
   "keywords": [
     "homebridge",
     "homebridge-plugin",
+    "supports-hap",
     "hoobs",
     "hoobs-plugin",
     "homekit",
