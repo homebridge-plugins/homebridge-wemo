@@ -2,6 +2,12 @@
 
 All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented in this file.
 
+## v7.6.1 (Pending Release)
+
+### Changed
+
+- chore: add a test setup with tests for the shared helper functions
+
 ## v7.6.0 (2026-07-27)
 
 ### Changed
