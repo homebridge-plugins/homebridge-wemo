@@ -15,6 +15,7 @@ All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented 
 - chore(deps): dependency updates
 - docs: add node 26 to the supported node versions
 - feat: only accept a device status notification from the address the device was discovered on, with a disableNotifySourceCheck option for networks that rewrite addresses (#277)
+- fix: replace the ip dependency with a local subnet check, clearing its unfixable npm advisory
 
 ## v7.6.0 (2026-07-27)
 
