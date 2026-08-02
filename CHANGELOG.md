@@ -2,6 +2,12 @@
 
 All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented in this file.
 
+## v7.7.1 (Pending Release)
+
+### Changed
+
+- chore: exclude test files and the test config from the published package
+
 ## v7.7.0 (2026-08-02)
 
 ### Changed
