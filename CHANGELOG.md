@@ -7,6 +7,7 @@ All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented 
 ### Changed
 
 - chore: exclude test files and the test config from the published package
+- fix: restore debug logging when the plugin runs in a child bridge
 
 ## v7.7.0 (2026-08-02)
 
