@@ -10,6 +10,7 @@ All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented 
 - fix: restore debug logging when the plugin runs in a child bridge
 - fix: only turn adaptive lighting off when a colour is genuinely chosen elsewhere
 - fix: send a colour change when only the saturation moves, and mend the al cleanup
+- fix: explain a port clash on the notification listener instead of crashing the bridge
 
 ## v7.7.0 (2026-08-02)
 
