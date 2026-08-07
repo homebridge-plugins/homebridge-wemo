@@ -12,6 +12,7 @@ All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented 
 - fix: send a colour change when only the saturation moves, and mend the al cleanup
 - fix: explain a port clash on the notification listener instead of crashing the bridge
 - fix: stop gating a few log lines on a debug setting that was never readable
+- fix: keep an accessory when a device answers without its service list
 
 ## v7.7.0 (2026-08-02)
 
