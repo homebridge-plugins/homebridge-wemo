@@ -14,6 +14,7 @@ All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented 
 - fix: stop gating a few log lines on a debug setting that was never readable
 - fix: keep an accessory when a device answers without its service list
 - fix: cancel a garage door's settle timer when homebridge shuts down
+- fix: wait for the manually configured devices before reporting which ones failed to connect
 
 ## v7.7.0 (2026-08-02)
 
