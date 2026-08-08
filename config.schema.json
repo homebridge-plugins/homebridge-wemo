@@ -42,7 +42,8 @@
         "title": "Discovery Interval",
         "description": "An interval (in seconds) in which the plugin will broadcast on your network to initally find devices and repair connection errors. Must be 15 or more.",
         "placeholder": 30,
-        "minimum": 15
+        "minimum": 15,
+        "maximum": 2073600
       },
       "wemoClient": {
         "title": "Discovery Settings",
@@ -87,14 +88,16 @@
         "title": "HTTP Polling Interval",
         "description": "An interval (in seconds) in which the plugin will request status updates for devices that don't support UPnP or have it manually disabled. Must be 15 or more.",
         "placeholder": 30,
-        "minimum": 15
+        "minimum": 15,
+        "maximum": 2073600
       },
       "upnpInterval": {
         "type": "integer",
         "title": "UPnP Subscription Interval",
         "description": "An interval (in seconds) in which the plugin will resubscribe to UPnP notifications. Must be 60 or more.",
         "placeholder": 300,
-        "minimum": 60
+        "minimum": 60,
+        "maximum": 2073600
       },
       "disableUPNP": {
         "type": "boolean",
@@ -162,6 +165,7 @@
               "description": "The time in seconds for how long it takes the garage door to open/close. Must be 1 or more.",
               "placeholder": 20,
               "minimum": 1,
+              "maximum": 2073600,
               "condition": {
                 "functionBody": "return (model.makerTypes && model.makerTypes[arrayIndices] && model.makerTypes[arrayIndices].makerType === 'garageDoor' && !model.makerTypes[arrayIndices].ignoreDevice);"
               }
@@ -252,6 +256,7 @@
               "description": "The plugin will not log device wattage if the time difference (in seconds) from the previous value is less than this number. Must be 1 or more.",
               "placeholder": 1,
               "minimum": 1,
+              "maximum": 2073600,
               "condition": {
                 "functionBody": "return (model.wemoInsights && model.wemoInsights[arrayIndices] && model.wemoInsights[arrayIndices].serialNumber && model.wemoInsights[arrayIndices].serialNumber.length > 0 && !model.wemoInsights[arrayIndices].ignoreDevice);"
               }
@@ -492,6 +497,7 @@
               "description": "A timer (in seconds) for how long after motion is not detected that the state is changed.",
               "placeholder": 60,
               "minimum": 0,
+              "maximum": 2073600,
               "condition": {
                 "functionBody": "return (model.wemoMotions && model.wemoMotions[arrayIndices] && model.wemoMotions[arrayIndices].serialNumber && model.wemoMotions[arrayIndices].serialNumber.length > 0 && !model.wemoMotions[arrayIndices].ignoreDevice);"
               }
