@@ -61,14 +61,14 @@
   },
   "dependencies": {
     "@homebridge/plugin-ui-utils": "^2.2.5",
-    "axios": "^1.18.1",
+    "axios": "^1.19.0",
     "node-ssdp": "^4.0.1",
     "p-queue": "^9.3.3",
     "xml2js": "^0.6.2",
     "xmlbuilder": "^15.1.1"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^9.2.0",
+    "@antfu/eslint-config": "^9.3.0",
     "@vitest/coverage-v8": "^4.1.10",
     "vitest": "^4.1.10"
   }
