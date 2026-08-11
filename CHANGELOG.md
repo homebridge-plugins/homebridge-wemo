@@ -7,6 +7,7 @@ All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented 
 ### Changed
 
 - fix: keep saving eve history for a device with a slash in its name
+- fix: write eve history atomically, so an interrupted write cannot corrupt it
 
 ## v7.7.1 (2026-08-10)
 
