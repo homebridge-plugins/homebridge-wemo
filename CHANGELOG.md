@@ -2,6 +2,12 @@
 
 All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented in this file.
 
+## v7.7.2 (Pending Release)
+
+### Changed
+
+- fix: keep saving eve history for a device with a slash in its name
+
 ## v7.7.1 (2026-08-10)
 
 ### Changed
