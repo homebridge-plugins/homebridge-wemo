@@ -6,7 +6,7 @@ All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented 
 
 ### Changed
 
-- ci: update github actions to their latest versions
+- ci: update github actions to their latest versions (#288)
 
 ## v7.7.3 (2026-10-18)
 
