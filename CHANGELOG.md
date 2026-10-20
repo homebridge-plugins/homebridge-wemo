@@ -7,6 +7,7 @@ All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented 
 ### Changed
 
 - ci: update github actions to their latest versions (#288)
+- fix: keep the decimals of a power reading, so 5.5w is no longer shown as 6w
 
 ## v7.7.3 (2026-10-18)
 
