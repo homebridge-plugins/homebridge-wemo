@@ -11,6 +11,7 @@ All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented 
 - fix(lights): keep adaptive lighting on after a restart in the evening, the bulb stops at 2700k
 - fix(lights): use the brightness step and other settings set for a link bulb in the config
 - ci: publish releases with node.js v26, the current lts
+- chore(deps): dependency updates
 
 ## v7.7.3 (2026-10-18)
 
