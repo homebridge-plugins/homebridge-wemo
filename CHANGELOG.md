@@ -2,6 +2,12 @@
 
 All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented in this file.
 
+## v7.7.5 (Pending Release)
+
+### Changed
+
+- fix: give each wemo its own request queue, so a slow device no longer holds up the others
+
 ## v7.7.4 (2026-11-14)
 
 ### Changed
