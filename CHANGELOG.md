@@ -7,6 +7,7 @@ All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented 
 ### Changed
 
 - fix: give each wemo its own request queue, so a slow device no longer holds up the others
+- fix(discovery): move to node-ssdp 6, and say why discovery could not start
 
 ## v7.7.4 (2026-11-14)
 
