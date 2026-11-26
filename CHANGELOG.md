@@ -7,6 +7,7 @@ All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented 
 ### Changed
 
 - fix(discovery): search with a built-in ssdp client, and drop node-ssdp and its old dependencies
+- chore(deps): dependency updates
 
 ## v7.7.6 (2026-11-26)
 
