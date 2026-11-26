@@ -7,6 +7,7 @@ All notable changes to `@homebridge-plugins/homebridge-wemo` will be documented 
 ### Changed
 
 - fix(discovery): go back to node-ssdp 4, as 6 fails to start when udp port 1900 is in use (#295)
+- chore(deps): dependency updates
 
 ## v7.7.5 (2026-11-22)
 
