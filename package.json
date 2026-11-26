@@ -62,7 +62,7 @@
   "dependencies": {
     "@homebridge/plugin-ui-utils": "^2.3.0",
     "axios": "^1.21.1",
-    "node-ssdp": "^4.0.1",
+    "node-ssdp": "^6.0.0",
     "p-queue": "^10.0.0",
     "xml2js": "^0.6.2",
     "xmlbuilder": "^15.1.1"
